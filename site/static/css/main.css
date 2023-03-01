@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+}
+.main{
+    background-color: #e1b7bf
+}
+.head{
+    background-color: #e1b7bf
+}
+.logo{
+    padding-top: 2%;
+    margin-left: 15%;
+}
+button{
+    background-color: #c262af;
+}
+.naming{
+    float: right;
+    margin: 15% 15% 15% 15%;
+
+}
+.sectio_2{
+    display: flex;
+    background-color: #59437a;
+}
+.block{
+    margin: 30px;
+}
+.left-block{
+    justify-content: left;
+    text-align: center;
+    margin: 30px;
+}
+.rith-block{
+    justify-content: right;
+    text-align: center;
+    margin: 30px;
+}
+.center-block{
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.sectio_3{
+    display: flex;
+    background-color: #e1b7bf;
+    margin-top: 20px;
+}
+.conteyner_1{
+    margin: 30px;
+}
+.shapka{
+    background-color: #59437a;
+    height: 10px;
+}
+.content-chek{
+    text-align: center;
+    background-color: #ffffff;
+}
+.big-rith-blok{
+    background-color: #59437a;
+    margin: 20px;
+}
+
+
+
+
+.sectio_4{
+    display: flex;
+    justify-content: center;
+}
+.nazvanie{
+    text-align: center;
+}
+.data{
+    text-align: left;
+}
+.opisanie{
+    text-align: left;
+}
+.textik{
+    text-align: center;
+}
+
+
+
+
+.sectio_5{
+    background-color: #59437a;
+    display: flex;
+}
+.nazv{
+    text-align: center;
+}
+
+
+
+
+
+
+.sectio_6{
+    display: flex;
+    background-color: #59437a;
+}
+.blochik{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.sectio_7{
+    display: flex;
+}
+.image{
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #333333;
+}
+
+
+
