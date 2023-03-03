@@ -1,3 +1,6 @@
+html{
+    font-family: sans-serif;
+}
 body{
     padding: 0;
     margin: 0 auto;
@@ -219,6 +222,16 @@ button{
     color: #59437a;
     font-family: 'Open Sans',sans-serif;
 }
+.perpl{
+    color:#d4c7e8 ;
+}
+.ttt{
+    margin: 18px auto 0;
+    width: 475px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1em;
+    color: #d4c7e8;
+}
 .pod-nam{
     font-size: 1.25rem;
     font-weight: 700;
@@ -257,23 +270,45 @@ button{
 
 .sectio_5{
     background-color: #59437a;
-    display: flex;
+    display: block;
+    padding-top: 25px;
 }
 .nazv{
     text-align: center;
 }
-
-
-
-
-
-
-.sectio_6{
-    display: flex;
+.size1{
+    font-size: 3em;
+}
+.conte{
+    justify-content: center;
     background-color: #59437a;
+    margin: 33px auto 0;
+    max-width: 900px;
+}
+.vnytrynka{
+    margin-left: 1.5em;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+}
+.centr{
+    justify-content: center;
+}
+.buttom-1{
+    padding-bottom: 50px;
 }
 .blochik{
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.contentik-1{
+    padding: 30px;
+    font-family: 'Open Sans',sans-serif;
 }
 
 
@@ -289,8 +324,111 @@ button{
     height: 250px;
     width: 250px;
 }
+.left-blok-pink{
+    width: 50%;
+    padding: 30px 90px 30px 90px;
+    justify-content: center;
 
+}
 
+.obolochka{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.obolochka-r{
+    margin: 150px 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 90px 0 90px;
+}
+.naz{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.geting{
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin: 0;
+}
+.texxt{
+    margin: 13px 106px 0 0;
+    color: #808080;
+    text-align: left;
+    font-size: 1.25em;
+    max-width: 700px;
+}
+.mini_dudu{
+    width: 130px;
+    height: 130px;
+    margin: auto 30px auto  0;
+    border-radius: 50%
+}
+
+.portfol{
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+}
+.hki{
+    justify-content: center;
+    margin:  auto 0 auto 0;
+    color: #e1b7bf;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.875rem;
+}
+.hh4{
+    margin-bottom: 10px;
+}
+.hh5{
+    margin-top: 10px;
+}
+.conteny-input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.input{
+    margin: 20px 0 0 ;
+    padding: 5px 0 5px 15px;
+    border-radius: 10px;
+    border: white;
+    height: 50px;
+
+}
+input::-webkit-input-placeholder { color: #808080; }
+input::-webkit-input-placeholder { font-size: 1.25em; }
+.cnopka2{
+    margin-top: 15px;
+    color: white;
+    max-width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #59437a;
+    border: #ffffff;
+    font-size: 1em;
+}
+.rithe-blok-pink{
+    width: 50%;
+    justify-content: center;
+    padding: 30px;
+}
+.texit{
+    font-size: 1.25em;
+    color: #59437a;
+    line-height: 1.6;
+    max-width: 700px;
+}
+.opis{
+    margin: 70px 0 0;
+}
+.tet{
+    font-style: italic;
+    color: #d4c7e8;;
+}
 
 
 .sectio_8{
