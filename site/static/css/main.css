@@ -74,8 +74,51 @@ button{
 
 }
 
+.hhhhh{
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+.otstuppp{
+    line-height: 2;
+}
+.content-chekout{
+    width: 550px;
+    min-height: 416px;
+    height: auto;
+    margin: -500px auto 0 60px;
+    max-width: 520px;
+    color: #59437a;
+    font-size: 1.25em;
 
-
+}
+.buttom-2{
+    width: 410px;
+    height: 70px;
+    border-radius: 10px;
+    border: #c262af;
+    color: white;
+    background-image: none;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-style: none;
+    margin: 18px auto 0 0;
+    padding: 15px 125px 15px 123px;
+}
+.conteyner_2{
+    margin: 0 auto;
+    justify-content: left;
+    text-align: left;
+    width: 50%;
+}
+.conteyner_3{
+    width: 50%;
+}
+.pppp{
+    display: flex;
+    margin: 0 auto;
+}
 
 
 
@@ -156,15 +199,61 @@ button{
 
 }
 .oblik{
-    grid-template-columns: repeat(2, calc(50% - 16px));
-    min-height: 716px;
-    grid-gap: 32px;
-    margin: 55px 400px 0 0;
-    flex: 1;
-    width: 515px;
+    display: flex;
+    min-height: 1282px;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 40px;
+}
+.chetire-bloka{
+    display: grid;
+    flex-direction: column;
+    width: 675px;
+    margin: 0 auto 0 60px;
+    grid-template-columns: repeat(2, calc(50% - 20px));
+    min-height: 300px;
+    grid-gap: 32px ;
+    max-height: 825px;
+
+}
+.fffff{
+    display: flex;
+}
+.niz{
+    display: flex;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: flex-end;
+}
+
+
+.hh3{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 50px 11px 0;
+    color: #c262af
+
+}
+.ustal{
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 20px 10px 0;
+}
+.slochno{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
 .conteyner_1{
-    margin: 30px;
+    display: grid;
+    margin: 0 30px 30px 30px;
+    max-height: 300px;
+
 }
 .shapka{
     background-color: #59437a;
@@ -173,12 +262,33 @@ button{
 .content-chek{
     text-align: center;
     background-color: #ffffff;
+    padding: 0 0 30px;
+
 }
 .big-rith-blok{
     background-color: #59437a;
-    margin: 20px;
 }
-
+.rit-bl{
+    width: 350px;
+    min-height: 1172px;
+    height: auto;
+    margin: auto 62px 55px auto;
+    color: white;
+    padding: 50px 30px;
+}
+.vn{
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 12px 0 0;
+}
+.hh6{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.875rem;
+    margin: 50px 0 0;
+}
 
 
 
@@ -422,6 +532,12 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
     line-height: 1.6;
     max-width: 700px;
 }
+.texit1{
+    font-size: 1.25em;
+    color: #e1b7bf;
+    line-height: 1.6;
+    max-width: 700px;
+}
 .opis{
     margin: 70px 0 0;
 }
@@ -443,14 +559,48 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
 
 
 
-
-
-
-
-footer{
-    text-align: center;
+.fooo{
     background-color: #333333;
+    min-height:100%;
+    padding: 30px;
+    text-align: center;
+
 }
 
+.sdno{
+    background-color: #333333;
+    font-size: 0.875rem;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 1;
+    font-family: 'Open Sans',sans-serif;
+}
+.ssilka{
+    color: #d4c7e8;
+}
+.ssilka:hover{
+    color: #808080;
+}
+.ssilkka{
+    color: #d4c7e8;
+}
+.ssilkka:hover{
+    color: #808080;
+}
+
+
+.h66{
+    font-family: 'Open Sans',sans-serif;
+    font-style: unset;
+    width: 417px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    font-weight: 1;
+}
 
 
