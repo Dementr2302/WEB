@@ -1,6 +1,7 @@
 html{
     font-family: sans-serif;
 }
+
 body{
     padding: 0;
     margin: 0 auto;
@@ -75,7 +76,7 @@ button{
 .obtik{
     margin: 0 auto;
     flex-wrap: wrap;
-    min-height: 500px;
+    min-height: 634px;
     padding-right: 30px;
     padding-bottom: 0;
     position: relative;
@@ -87,6 +88,7 @@ button{
 .foto_dudu{
     padding: 24px 40px 0 ;
     justify-content: right;
+
 }
 .foto{
     object-position: 100% 50%;
@@ -113,14 +115,13 @@ button{
 
 }
 .buttom-2{
-    width: 410px;
+    width: 430px;
     height: 70px;
     border-radius: 10px;
     border: #c262af;
     color: white;
     letter-spacing: 1px;
     font-size: 1.125rem;
-    text-transform: uppercase;
     font-weight: 700;
     border-style: none;
     margin: 18px auto 0 0;
@@ -142,7 +143,8 @@ button{
 .sectio_6{
     background-color: #59437a;
     min-height: 210px;
-    display: block;
+    display: grid;
+    grid-auto-flow: row;
 }
 .pustota{
     height: 100px;
@@ -152,10 +154,14 @@ button{
 
 .rasoplpg{
     display: grid;
+    text-align: center;
     justify-content: center;
-    width: 1076px;
+    max-width: 1076px;
+    min-width: 300px;
     margin: -181px auto -250px calc(((100% - 1140px) / 2) + 32px);
-    grid-template-columns: repeat(4, calc(25% - 22.5px));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    object-fit: cover;
     min-height: 600px;
     grid-gap: 30px;
     position: relative;
@@ -164,10 +170,9 @@ button{
     fill: #434992;
 }
 .block{
-    grid-template-rows: repeat(1, auto);
-    width: 1076px;
+    object-fit: cover;
+    width: 100%;
     height: 200px;
-    margin: -181px auto -150px calc(((100% - 1140px) / 2) + 32px);
 }
 .str{
     text-align: center;
@@ -778,3 +783,36 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
 }
 
 
+
+
+.ooo{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 70px;
+    width: 70px;
+    background-color: #e1b7bf;
+    border-radius: 50%;
+}
+.fal:before {
+  font-size: 30px;
+}
+
+.font-wh{
+    font-weight: 600;
+}
+
+
+.fa-long-arrow-right{
+    color: #c262af;
+}
+.fa-check{
+    color: #e1b7bf;
+}
+
+.ikon{
+     word-spacing:15px;
+}
