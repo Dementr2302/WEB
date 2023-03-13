@@ -388,14 +388,19 @@ button{
 
 .sectio_4{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 .nazvanie{
     text-align: center;
+    margin-bottom: 20px;
 }
 .data{
+    width: 30%;
     text-align: left;
     color: #59437a;
+
 }
 .dolch{
     font-size: 1.25rem;
@@ -404,23 +409,28 @@ button{
     font-size: 1rem;
 }
 .texit{
+    width: 100%;
     font-size: 1.25rem;
     margin: 20px 0 0;
 }
 .opisanie{
     color: #59437a;
     text-align: left;
-    width: 598px;
-    min-height: 200px;
-    height: auto;
+    width: 70%;
+    float: right;
+    height: 100%;
     margin: -20px 0 0 auto;
 }
 .textik{
+    width: 100%;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
 }
 .dolchnost{
-    margin: 0 62.5px 0 62.5px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
 }
 .coloring{
     color: #59437a;
@@ -439,14 +449,12 @@ button{
 .pod-nam{
     font-size: 1.25rem;
     font-weight: 700;
-    width: 724px;
+    width: 60%;
     margin: 34px auto 0;
 }
 .ob{
-   height: auto;
-    width: 867px;
-    margin: 34px auto 0;
-    margin-bottom: 50px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .poloska{
@@ -488,6 +496,8 @@ button{
     background-color: #59437a;
     display: block;
     padding-top: 25px;
+    min-width: 300px;
+    max-width: 100%;
 }
 .nazv{
     text-align: center;
@@ -496,10 +506,10 @@ button{
     font-size: 3em;
 }
 .conte{
-    justify-content: center;
     background-color: #59437a;
-    margin: 33px auto 0;
-    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .vnytrynka{
     margin-left: 1.5em;
@@ -515,15 +525,16 @@ button{
     padding-bottom: 50px;
 }
 .blochik{
-    text-align: left;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    width: 100%;
 
 }
 .contentik-1{
-    padding: 30px;
+    padding: 10px;
+    margin: 30px;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -534,12 +545,13 @@ button{
 
 
 .sectio_7{
-    display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-}
-.rasp{
-    display: flex;
-}
 .naziv{
     font-size: 3.75rem;
     text-transform: none;
@@ -558,20 +570,19 @@ button{
     background-color: #59437a;
 }
 .phon3{
+    width: 100%;
     display: flex;
-    width: 1140px;
-    margin: -450px auto 0;
-    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .developer-block{
-    flex: 0 0 33.33333333%;
-    max-width: 33.33333333%;
+    width: 300px;
     margin: 20px;
 }
 .parametr{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
     border: 13px;
     padding: 30px;
     background-color: white;
@@ -598,9 +609,13 @@ button{
 }
 .conterntt-image{
     justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
 }
 .left-blok-pink{
-    width: 50%;
+    min-width: 400px;
+    width: 40%;
     padding: 30px 90px 30px 90px;
     justify-content: center;
 
@@ -613,11 +628,11 @@ button{
     margin-bottom: 100px;
 }
 .obolochka-r{
-    margin: 150px 0 0;
+    margin: 60px 0 60px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 0 90px 0 90px;
+    padding: 0 40px 0 40px;
 }
 .naz{
     margin-top: 100px;
@@ -693,9 +708,9 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
     font-size: 1em;
 }
 .rithe-blok-pink{
-    width: 50%;
+    min-width: 520px;
+    width: 40%;
     justify-content: center;
-    padding: 30px;
 }
 .texit{
     font-size: 1.25em;
@@ -720,6 +735,10 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
 
 .sectio_8{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .left-blok-pink{
     background-color: #e1b7bf;
