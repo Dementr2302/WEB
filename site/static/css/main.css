@@ -149,7 +149,7 @@ button{
     display: flex;
     margin: 0 auto;
 }
-.sectio_6{
+.sectio_1_2{
     background-color: #59437a;
     width: 100%;
     max-width: 100%;
@@ -294,7 +294,7 @@ button{
 }
 .oblik{
     display: flex;
-    min-height: 1282px;
+
     justify-content: center;
     margin: 0 auto;
     font-size: 1rem;
@@ -302,14 +302,10 @@ button{
     padding-top: 40px;
 }
 .chetire-bloka{
-    display: grid;
-    flex-direction: column;
-    width: 675px;
-    margin: 0 auto 0 60px;
-    grid-template-columns: repeat(2, calc(50% - 20px));
-    min-height: 300px;
-    grid-gap: 32px ;
-    max-height: 825px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    max-height: 900px;
 
 }
 .fffff{
@@ -344,10 +340,11 @@ button{
     margin-bottom: 0;
 }
 .conteyner_1{
-    display: grid;
-    margin: 0 30px 30px 30px;
-    max-height: 300px;
-
+    display: flex;
+    flex: 1;
+    max-height: 400px;
+    min-width: 200px;
+    margin: 0 30px 0 30px;
 }
 .shapka{
     background-color: #59437a;
@@ -363,9 +360,7 @@ button{
     background-color: #59437a;
 }
 .rit-bl{
-    width: 350px;
-    min-height: 1172px;
-    height: auto;
+    width: 400px;
     margin: auto 62px 55px auto;
     color: white;
     padding: 50px 30px;
