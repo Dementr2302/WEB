@@ -114,17 +114,17 @@ button{
     line-height: 2;
 }
 .content-chekout{
-    width: 550px;
+    margin: 0 auto 0 0 ;
+    width: 100%;
     min-height: 416px;
     height: auto;
-    margin: -500px auto 0 60px;
     max-width: 520px;
     color: #59437a;
     font-size: 1.25em;
 
 }
 .buttom-2{
-    width: 430px;
+    width: 100%;
     height: 70px;
     border-radius: 10px;
     border: #c262af;
@@ -134,13 +134,9 @@ button{
     font-weight: 700;
     border-style: none;
     margin: 18px auto 0 0;
-    padding: 15px 125px 15px 123px;
 }
 .conteyner_2{
-    margin: 0 auto;
-    justify-content: left;
-    text-align: left;
-    width: 50%;
+    width: 100%;
 }
 .conteyner_3{
     width: 50%;
@@ -292,10 +288,14 @@ button{
 
 
 }
+.text-let-bat{
+    width: 50%;
+}
 .oblik{
     display: flex;
-
     justify-content: center;
+    flex-wrap: wrap;
+    min-height: 1400px;
     margin: 0 auto;
     font-size: 1rem;
     line-height: 1.6;
@@ -304,9 +304,6 @@ button{
 .chetire-bloka{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    max-height: 900px;
-
 }
 .fffff{
     display: flex;
@@ -342,9 +339,11 @@ button{
 .conteyner_1{
     display: flex;
     flex: 1;
-    max-height: 400px;
     min-width: 200px;
-    margin: 0 30px 0 30px;
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 250px;
+    margin: 0 30px 30px 30px;
 }
 .shapka{
     background-color: #59437a;
@@ -355,12 +354,16 @@ button{
     background-color: #ffffff;
     padding: 0 0 30px;
 
+
 }
 .big-rith-blok{
     background-color: #59437a;
+    width: 45%;
 }
 .rit-bl{
-    width: 400px;
+    display: flex;
+    min-width: 200px;
+    max-width: 400px;
     margin: auto 62px 55px auto;
     color: white;
     padding: 50px 30px;
