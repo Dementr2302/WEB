@@ -1,37 +1,51 @@
-html{
+html {
     font-family: sans-serif;
 }
 
-body{
+body {
     padding: 0;
     margin: 0 auto;
     border: 0;
     background-color: #59437a;
+    min-width: 320px;
+    width: 100%;
 }
-.knopka1:hover{
+
+.knopka1:hover {
     background-color: #59437a;
 }
-.knopka:hover{
+
+.main {
+    width: 100%;
+    min-width: 320px;
+}
+
+.knopka:hover {
     background-color: white;
     color: #c262af;
 }
-.main{
+
+.main {
     background-color: #e1b7bf
 }
-.head{
+
+.head {
     background-color: #e1b7bf
 }
-.logo{
+
+.logo {
     width: 1090px;
     padding-top: 2%;
     margin: 0 auto;
 }
-button{
+
+button {
     background-color: #c262af;
 }
-.naming{
+
+.naming {
     margin: auto 0 auto 0;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: block;
     flex-direction: column;
     vertical-align: middle;
@@ -39,36 +53,41 @@ button{
 }
 
 
-.sectio_1{
+.sectio_1 {
     background-color: #e1b7bf;
     display: flex;
     position: relative;
     width: 100%;
     max-width: 100%;
 }
-.naming-all{
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+
+.naming-all {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
-.chertochka{
+
+.chertochka {
     width: 111px;
     height: 6px;
     transform-origin: left center;
     margin: 0 auto 0 0;
     background-color: #59437a;
 }
-.texxtt{
+
+.texxtt {
     font-style: italic;
 }
-.naming-text{
+
+.naming-text {
     color: #59437a;
     font-size: 4em;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0 auto;
 }
-.knopka1{
+
+.knopka1 {
     width: 300px;
     height: 60px;
     border-radius: 10px;
@@ -80,10 +99,12 @@ button{
     border-style: none;
 
 }
-.text-st{
-     font-family: Montserrat,sans-serif;
+
+.text-st {
+    font-family: Montserrat, sans-serif;
 }
-.obtik{
+
+.obtik {
     margin: 0 auto;
     flex-wrap: wrap;
     min-height: 634px;
@@ -94,28 +115,32 @@ button{
     justify-content: center;
 
 }
-.foto_dudu{
-    padding: 24px 40px 0 ;
+
+.foto_dudu {
+    padding: 24px 40px 0;
     justify-content: right;
 
 }
-.foto{
+
+.foto {
     object-position: 100% 50%;
     margin: 0 auto;
     width: 100%;
     height: auto;
 }
 
-.hhhhh{
+.hhhhh {
     font-weight: 700;
     font-size: 2.25rem;
 }
-.otstuppp{
+
+.otstuppp {
     line-height: 2;
 }
-.content-chekout{
-    margin: 0 auto 0 0 ;
-    width: 100%;
+
+.content-chekout {
+    margin: 0 auto 0 20px;
+    width: 90%;
     min-height: 416px;
     height: auto;
     max-width: 520px;
@@ -123,7 +148,8 @@ button{
     font-size: 1.25em;
 
 }
-.buttom-2{
+
+.buttom-2 {
     width: 80%;
     height: 70px;
     border-radius: 10px;
@@ -135,20 +161,25 @@ button{
     border-style: none;
     margin: 18px auto 0 0;
 }
-.conteyner_2{
+
+.conteyner_2 {
     width: 100%;
 }
-.conteyner_3{
+
+.conteyner_3 {
     width: 50%;
 }
-.pppp{
+
+.pppp {
     display: flex;
     margin: 0 auto;
 }
-.sectio_1_2{
+
+.sectio_1_2 {
     background-color: #59437a;
     width: 100%;
     max-width: 100%;
+    min-width: 320px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -156,47 +187,56 @@ button{
 }
 
 
-.rasoplpg{
+.rasoplpg {
     max-width: 100%;
     height: 100%;
     width: 100%;
+    min-width: 320px;
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.svg{
+
+.svg {
     fill: #434992;
 }
-.block{
+
+.block {
     justify-content: space-between;
     text-align: center;
     margin: 20px;
     width: 45%;
     flex: 1 0 25%;
-  padding: 20px;
-  box-sizing: border-box;
-            background-color: #59437a;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #59437a;
 
 }
-.str{
+.block{
+    min-width: 200px;
+}
+.str {
     text-align: center;
     justify-content: center;
     margin: 0 auto;
 }
-.conteyner1{
+
+.conteyner1 {
     background-color: white;
     margin: 20px;
     min-width: 250px;
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
     box-shadow: 5px 5px 20px 0 rgb(45 41 51 / 40%);
 }
-.osnova{
-            background-color: #59437a;
+
+.osnova {
+    background-color: #59437a;
 
 }
-.ot{
+
+.ot {
     text-align: center;
     padding: 30px;
     justify-content: center;
@@ -208,13 +248,12 @@ button{
     margin: 23px auto 0;
 }
 
-.blok23{
+.blok23 {
     min-width: 300px;
 }
 
 
-
-.sectio_2{
+.sectio_2 {
     margin: 0 auto;
     display: flex;
     background-color: #59437a;
@@ -222,20 +261,24 @@ button{
     justify-content: center;
 }
 
-.monik{
-    font-family: Montserrat,sans-serif;
+.monik {
+    font-family: Montserrat, sans-serif;
 }
-.stili_sans-serif{
+
+.stili_sans-serif {
     font-family: sans-serif;
     font-size: 1.125rem;
 }
-.white{
+
+.white {
     color: white;
 }
-.otstup{
+
+.otstup {
     line-height: 1.6;
 }
-.knopka{
+
+.knopka {
     width: 180px;
     height: 50px;
     border-radius: 10px;
@@ -243,14 +286,16 @@ button{
     font-weight: 700;
     font-size: 1.25em;
 }
-.left-block{
+
+.left-block {
     flex: 1;
     text-align: left;
     margin: 40px 30px 40px 30px;
     padding: 30px 26px 30px 26px;
 
 }
-.rith-block{
+
+.rith-block {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -259,7 +304,8 @@ button{
     flex: 1;
 
 }
-.center-block{
+
+.center-block {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -269,29 +315,19 @@ button{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.sectio_3{
+.sectio_3 {
     background-color: #e1b7bf;
     margin-top: 20px;
     display: grid;
 
 
 }
-.text-let-bat{
+
+.text-let-bat {
     width: 50%;
 }
-.oblik{
+
+.oblik {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -301,14 +337,17 @@ button{
     line-height: 1.6;
     padding-top: 40px;
 }
-.chetire-bloka{
+
+.chetire-bloka {
     display: flex;
     flex-wrap: wrap;
 }
-.fffff{
+
+.fffff {
     display: flex;
 }
-.niz{
+
+.niz {
     display: flex;
     text-align: left;
     padding-bottom: 30px;
@@ -317,26 +356,29 @@ button{
 }
 
 
-.hh3{
+.hh3 {
     font-size: 4.5rem;
     font-weight: 700;
     margin: 50px 11px 0;
     color: #c262af
 
 }
-.ustal{
+
+.ustal {
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 1rem;
     margin: 20px 10px 0;
 }
-.slochno{
+
+.slochno {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 0;
 }
-.conteyner_1{
+
+.conteyner_1 {
     display: flex;
     flex: 1;
     min-width: 200px;
@@ -345,22 +387,26 @@ button{
     max-width: 250px;
     margin: 0 30px 30px 30px;
 }
-.shapka{
+
+.shapka {
     background-color: #59437a;
     height: 20px;
 }
-.content-chek{
+
+.content-chek {
     text-align: center;
     background-color: #ffffff;
     padding: 0 0 30px;
 
 
 }
-.big-rith-blok{
+
+.big-rith-blok {
     background-color: #59437a;
     width: 45%;
 }
-.rit-bl{
+
+.rit-bl {
     display: flex;
     min-width: 200px;
     max-width: 400px;
@@ -368,14 +414,16 @@ button{
     color: white;
     padding: 50px 30px;
 }
-.vn{
+
+.vn {
     font-size: 1.125rem;
     letter-spacing: 1px;
     font-weight: 400;
     line-height: 1;
     margin: 12px 0 0;
 }
-.hh6{
+
+.hh6 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 0.875rem;
@@ -383,35 +431,40 @@ button{
 }
 
 
-
-.sectio_4{
+.sectio_4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
-.nazvanie{
+
+.nazvanie {
     text-align: center;
     margin-bottom: 20px;
 }
-.data{
+
+.data {
     width: 30%;
     text-align: left;
     color: #59437a;
 
 }
-.dolch{
+
+.dolch {
     font-size: 1.25rem;
 }
-.dolchk{
+
+.dolchk {
     font-size: 1rem;
 }
-.texit{
+
+.texit {
     width: 100%;
     font-size: 1.25rem;
     margin: 20px 0 0;
 }
-.opisanie{
+
+.opisanie {
     color: #59437a;
     text-align: left;
     width: 70%;
@@ -419,66 +472,77 @@ button{
     height: 100%;
     margin: -20px 0 0 auto;
 }
-.textik{
+
+.textik {
     width: 100%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
-.dolchnost{
+
+.dolchnost {
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
 }
-.coloring{
+
+.coloring {
     color: #59437a;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.perpl{
-    color:#d4c7e8 ;
+
+.perpl {
+    color: #d4c7e8;
 }
-.ttt{
+
+.ttt {
     margin: 18px auto 0;
     width: 475px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #d4c7e8;
 }
-.pod-nam{
+
+.pod-nam {
     font-size: 1.25rem;
     font-weight: 700;
     width: 60%;
     margin: 34px auto 0;
 }
-.ob{
+
+.ob {
     width: 70%;
     margin: 0 auto;
 }
 
-.poloska{
+.poloska {
     width: 100%;
     height: 2px;
     transform-origin: center;
     background-color: #59437a;
 }
-.sizee{
+
+.sizee {
     font-size: 4.5rem;
     text-transform: none;
     font-weight: 700;
     margin: 60px auto 0;
 }
-.knop{
+
+.knop {
     text-align: center;
     justify-content: center;
 }
-.cnopka{
+
+.cnopka {
     color: white;
     width: 300px;
     height: 50px;
     border-radius: 10px;
     border: #c262af;
 }
-.cnopka5{
+
+.cnopka5 {
     font-weight: 700;
     color: white;
     width: 300px;
@@ -486,43 +550,51 @@ button{
     border-radius: 10px;
     border: #c262af;
 }
-.cnopka2:hover{
+
+.cnopka2:hover {
     background-color: #c262af;
 }
 
-.sectio_5{
+.sectio_5 {
     background-color: #59437a;
     display: block;
     padding-top: 25px;
     min-width: 300px;
     max-width: 100%;
 }
-.nazv{
+
+.nazv {
     text-align: center;
 }
-.size1{
+
+.size1 {
     font-size: 3em;
 }
-.conte{
+
+.conte {
     background-color: #59437a;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.vnytrynka{
+
+.vnytrynka {
     margin-left: 1.5em;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.5;
     position: relative;
 }
-.centr{
+
+.centr {
     justify-content: center;
 }
-.buttom-1{
+
+.buttom-1 {
     padding-bottom: 50px;
 }
-.blochik{
+
+.blochik {
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -530,27 +602,23 @@ button{
     width: 100%;
 
 }
-.contentik-1{
+
+.contentik-1 {
     padding: 10px;
     margin: 30px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
-
-
-
-.sectio_7{
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.sectio_7 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.naziv{
+.naziv {
     font-size: 3.75rem;
     text-transform: none;
     font-weight: 700;
@@ -561,23 +629,27 @@ button{
     right: 50%;
     text-align: center;
 }
-.otstup-2{
+
+.otstup-2 {
     height: 328px;
     margin-top: 273px;
     margin-bottom: 0;
     background-color: #59437a;
 }
-.phon3{
+
+.phon3 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.developer-block{
+
+.developer-block {
     width: 300px;
     margin: 20px;
 }
-.parametr{
+
+.parametr {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -586,32 +658,37 @@ button{
     background-color: white;
     text-align: center;
 }
-.image{
+
+.image {
     height: 100%;
     margin: 0;
     width: 100%;
 
 }
-.last_text{
+
+.last_text {
     margin-left: 0;
     margin-right: 0;
     line-height: 1.8;
     margin-bottom: 0;
     margin-top: 20px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.hhh4{
+
+.hhh4 {
     font-weight: 350;
     font-size: 1.5rem;
     margin: 20px auto 0;
 }
-.conterntt-image{
+
+.conterntt-image {
     justify-content: space-between;
     width: 100%;
     height: 200px;
     overflow: hidden;
 }
-.left-blok-pink{
+
+.left-blok-pink {
     min-width: 400px;
     width: 40%;
     padding: 30px 90px 30px 90px;
@@ -619,83 +696,103 @@ button{
 
 }
 
-.obolochka{
+.obolochka {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
-.obolochka-r{
+
+.obolochka-r {
     margin: 60px 0 60px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0 40px 0 40px;
 }
-.naz{
+
+.naz {
     margin-top: 100px;
     margin-bottom: 20px;
 }
-.geting{
+
+.geting {
     font-size: 3.75rem;
     font-weight: 700;
     margin: 0;
 }
-.texxt{
+
+.texxt {
     margin: 13px 106px 0 0;
     color: #808080;
     text-align: left;
     font-size: 1.25em;
     max-width: 700px;
 }
-.mini_dudu{
+
+.mini_dudu {
     width: 130px;
     height: 130px;
-    margin: auto 30px auto  0;
+    margin: auto 30px auto 0;
     border-radius: 50%
 }
-.ento-ya{
+
+.ento-ya {
     height: 100px;
     max-height: 300px;
 }
-.hz-zach{
+
+.hz-zach {
     text-align: center;
 }
-.portfol{
+
+.portfol {
     margin-top: 30px;
     display: flex;
     text-align: left;
 }
-.hki{
+
+.hki {
     justify-content: center;
-    margin:  auto 0 auto 0;
+    margin: auto 0 auto 0;
     color: #e1b7bf;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 1.875rem;
 }
-.hh4{
+
+.hh4 {
     margin-bottom: 10px;
 }
-.hh5{
+
+.hh5 {
     margin-top: 10px;
 }
-.conteny-input{
+
+.conteny-input {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.input{
-    margin: 20px 0 0 ;
+
+.input {
+    margin: 20px 0 0;
     padding: 5px 0 5px 15px;
     border-radius: 10px;
     border: white;
     height: 50px;
 
 }
-input::-webkit-input-placeholder { color: #808080; }
-input::-webkit-input-placeholder { font-size: 1.25em; }
-.cnopka2{
+
+input::-webkit-input-placeholder {
+    color: #808080;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 1.25em;
+}
+
+.cnopka2 {
     margin-top: 15px;
     color: white;
     max-width: 100%;
@@ -705,103 +802,120 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
     border: #ffffff;
     font-size: 1em;
 }
-.rithe-blok-pink{
+
+.rithe-blok-pink {
     min-width: 520px;
     width: 40%;
     justify-content: center;
 }
-.texit{
+
+.texit {
     font-size: 1.25em;
     color: #59437a;
     line-height: 1.6;
     max-width: 700px;
 }
-.texit1{
+
+.texit1 {
     font-size: 1.25em;
     color: #e1b7bf;
     line-height: 1.6;
     max-width: 700px;
 }
-.opis{
+
+.opis {
     margin: 70px 0 0;
 }
-.tet{
+
+.tet {
     font-style: italic;
     color: #d4c7e8;;
 }
 
 
-.sectio_8{
+.sectio_8 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
 }
-.left-blok-pink{
+
+.left-blok-pink {
     background-color: #e1b7bf;
 }
-.rithe-blok-pink{
+
+.rithe-blok-pink {
     background-color: #59437a;
 }
 
 
-
-.fooo{
+.fooo {
     background-color: #333333;
-    min-height:100%;
+    min-height: 100%;
     padding: 30px;
     text-align: center;
 
 }
 
-.sdno{
+.sdno {
     background-color: #333333;
     font-size: 0.875rem;
     padding: 20px;
     color: #ffffff;
     font-weight: 1;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.ssilka-1{
+
+.ssilka-1 {
     color: #000000;
 }
-.ssilka-1:hover{
+
+.ssilka-1:hover {
     color: #ffffff;
 }
-.ssilka{
+
+.ssilka {
     color: #d4c7e8;
 }
-.ssilka:hover{
+
+.ssilka:hover {
     color: #808080;
 }
-.ssilkka{
+
+.ssilkka {
     color: #d4c7e8;
 }
-.ssilkka:hover{
+
+.ssilkka:hover {
     color: #808080;
 }
-.ssilka-3{
+
+.ssilka-3 {
     color: #c262af;
     text-decoration: none;
     font-weight: 700;
 }
-.ssilka-3:hover{
+
+.ssilka-3:hover {
     color: #59437a;
 }
 
-.buttom-2:hover{
+.buttom-2:hover {
     background-color: #59437a;
 }
-.cnopka:hover{
+
+.cnopka:hover {
     background-color: #59437a;
 }
-.cnopka5:hover{
+
+.cnopka5:hover {
     background-color: #ffffff;
     color: #c262af;
 }
-.h66{
-    font-family: 'Open Sans',sans-serif;
+
+.h66 {
+    font-family: 'Open Sans', sans-serif;
     font-style: unset;
     width: 417px;
     margin-top: 49px;
@@ -815,9 +929,7 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
 }
 
 
-
-
-.ooo{
+.ooo {
     display: flex;
     margin: auto;
     text-align: center;
@@ -830,22 +942,24 @@ input::-webkit-input-placeholder { font-size: 1.25em; }
     background-color: #e1b7bf;
     border-radius: 50%;
 }
+
 .fal:before {
-  font-size: 30px;
+    font-size: 30px;
 }
 
-.font-wh{
+.font-wh {
     font-weight: 600;
 }
 
 
-.fa-long-arrow-right{
+.fa-long-arrow-right {
     color: #c262af;
 }
-.fa-check{
+
+.fa-check {
     color: #e1b7bf;
 }
 
-.ikon{
-     word-spacing:15px;
+.ikon {
+    word-spacing: 15px;
 }
